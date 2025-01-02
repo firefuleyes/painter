@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="zh-tw">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>油漆師傅</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>油漆師傅</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">關於我們</a></li>
+                <li><a href="#services">服務項目</a></li>
+                <li><a href="#contact">聯絡我們</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="about">
+            <h2>關於我們</h2>
+            <p>我們是一群專業的油漆師傅，提供高品質的油漆服務。</p>
+        </section>
+        <section id="services">
+            <h2>服務項目</h2>
+            <ul>
+                <li>室內油漆</li>
+                <li>室外油漆</li>
+                <li>商業油漆</li>
+                <li>住宅油漆</li>
+            </ul>
+        </section>
+        <section id="contact">
+            <h2>聯絡我們</h2>
+            <form id="contactForm">
+                <label for="name">姓名:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">電子郵件:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">訊息:</label>
+                <textarea id="message" name="message" required></textarea>
+                <button type="submit">送出</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2023 油漆師傅. 版權所有.</p>
+    </footer>
+    <script src="scripts.js"></script>
+</body>
+</html>
